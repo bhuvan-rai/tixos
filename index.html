@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>tixOS</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div id="welcome">
+      <div class="window-header">
+        <div class="window-buttons">
+          <span class="dot close" style="cursor: pointer"></span>
+          <span class="dot minimize" style="cursor: pointer"></span>
+          <span class="dot maximize" style="cursor: pointer"></span>
+        </div>
+        <div class="window-title">WELCOME</div>
+      </div>
+      
+     <div class="window-content">
+      <h1 class="window-main-title">Welcome to my OS</h1>
+      <h2 class="section-title">Introduction</h2>
+      <p class="intro-text">Hello! Welcome to tixOS, an Undertale-inspired personal OS project.</p>
+      <img src="./images/pfp.jpg" class="profile-avatar">   
+      <p class="bio-text">
+        I am <strong class="highlight-name">Bhuvan Rai</strong> <em>(formerly known as tixeriz)</em>, a 17-year-old male passionate about making and creating things cause creation is fun!
+      </p>
+      <a href="https://github.com/bhuvan-rai" class="github-link" target="_blank">My Official Github</a>
+      <div class="audio-bar">
+        <audio id="os-audio" src="./audio/ruins.mp3" autoplay loop></audio>
+        <button id="audio-control-btn" class="audio-btn">▶</button>
+        <div class="audio-track-info">
+          <span class="track-name">✨ ruins.mp3</span>
+          <span style="color: #888888; font-size: 9px;">i like this</span>
+        </div>
+      </div>
+     </div>
+    </div>
+    <div id="bar">
+      <p class="upper">tixOS</p>
+      <p class="upper">
+        version 0.1 <img src="./images/heart.png" style="height: 20px; width: 20px;">
+      </p>
+      <p id="timecheck" class="upper"></p>
+    </div>
+    <div>
+      <img src="./images/pfp.jpg" class="app" id="app1">
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

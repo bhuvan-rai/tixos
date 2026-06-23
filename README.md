@@ -4,8 +4,8 @@ undertale inspired / something inspired operating system themed personal website
 
 ## Current Features ( as of 24/06/2026 )
 
-- Welcome app
-- Links app
+- Welcome app ( brief introduction )
+- Links app ( social links + project links )
 - Functioning NOTEPAD that saves your text in a .txt file
 
 ## platform support
